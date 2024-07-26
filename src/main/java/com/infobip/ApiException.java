@@ -23,8 +23,8 @@ public final class ApiException extends Exception {
     private static final String SUPPORT_EMAIL = "support@infobip.com";
 
     private static final String OFFICIAL_MESSAGE =
-            "If you are having trouble interpreting the error, contact " + SUPPORT_EMAIL
-                    + " or open an issue on our Github repo." + "Include all details you find relevant. "
+            "If you are having trouble interpreting the error, please contact " + SUPPORT_EMAIL
+                    + " or submit an issue on our GitHub repo. " + "Include all details you find relevant. "
                     + "Thank you for using our library!";
 
     private final int responseStatusCode;
